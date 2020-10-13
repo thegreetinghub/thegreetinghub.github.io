@@ -4,7 +4,14 @@
   text-decoration: none;
 }
 
+.all-page-content-margin-subtract {
+  margin-top: 0 !important;
+}
+
 .navbar-header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100px;
 }
@@ -56,7 +63,20 @@
 
 .navbar-header .desktop-nav .toggle-btn {
   position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  justify-content: center !important;
+  align-items: center !important;
   display: none;
+}
+
+.navbar-header .desktop-nav .toggle-btn h1 {
+  font-size: 1.5rem;
 }
 
 header.mobile .mobile-nav {
@@ -69,9 +89,40 @@ header.mobile .mobile-nav.mobile-link-active {
   display: none;
 }
 
-@media (max-width: 768px) {
+.home {
+  width: 100%;
+  height: 75vh;
+}
+
+.home .carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.home .carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.home .carousel .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.home .carousel .carousel-inner .carousel-item .slideshow-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 960px) {
+  .navbar-header nav {
+    width: 100%;
+  }
+  .navbar-header nav .logo .logo-text h1 {
+    font-size: 1.5rem;
+  }
   .navbar-header nav .toggle-btn {
-    display: grid !important;
+    display: flex !important;
   }
   .list {
     display: none !important;
@@ -135,8 +186,24 @@ header.mobile .mobile-nav.mobile-link-active {
     transition-delay: 0.4s;
   }
   header.mobile .mobile-nav.mobile-nav-active {
+    margin: 100px 0 0 0;
     display: block;
     height: 200px;
     transition: height 0.5s;
+  }
+  .home {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 540px) {
+  .navbar-header nav {
+    width: 100%;
+  }
+  .navbar-header nav .logo .logo-text h1 {
+    font-size: 1.25rem;
+  }
+  .navbar-header nav .home {
+    height: 50vh;
   }
 }
