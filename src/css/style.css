@@ -1,4 +1,13 @@
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   margin: 0 !important;
   display: block;
 }
@@ -158,12 +167,37 @@ header.mobile .mobile-nav.mobile-link-active {
   height: 100%;
 }
 
+.contact-us {
+  margin: 0 auto !important;
+  width: 50% !important;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.contact-us h1 {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.contact-us .form-group .form-check label {
+  font-size: 14px !important;
+}
+
 @media (min-width: 968px) and (max-width: 1134px) {
   .navbar-header nav {
     width: 100%;
   }
   .navbar-header nav .logo .logo-text h1 {
     font-size: 1.9rem;
+  }
+  .contact-us {
+    margin: 0 auto !important;
+    width: 50% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 
@@ -267,6 +301,13 @@ header.mobile .mobile-nav.mobile-link-active {
   .home {
     height: 50vh;
   }
+  .contact-us {
+    margin: 0 auto !important;
+    width: 60% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
 }
 
 @media (max-width: 540px) {
@@ -282,6 +323,13 @@ header.mobile .mobile-nav.mobile-link-active {
   }
   .navbar-header nav .home {
     height: 50vh;
+  }
+  .contact-us {
+    margin: 0 auto !important;
+    width: 75% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 
@@ -304,7 +352,8 @@ header.mobile .mobile-nav.mobile-link-active {
 }
 
 @media (min-width: 2100px) {
-  .carousel-control-next-icon, .carousel-control-prev-icon {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
     width: 80px !important;
     height: 80px !important;
   }
@@ -345,6 +394,13 @@ header.mobile .mobile-nav.mobile-link-active {
   .navbar-header .desktop-nav .list li a {
     font-size: 2.5rem;
     line-height: 60px;
+  }
+  .contact-us {
+    margin: 0 auto !important;
+    width: 60% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
   }
 }
 /*# sourceMappingURL=style.css.map */
