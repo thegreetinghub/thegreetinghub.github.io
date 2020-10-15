@@ -123,12 +123,16 @@ header.mobile .mobile-nav.mobile-link-active {
 
 .contact-us {
     margin: 0 auto !important;
-    width: 50% !important;
-    height: max-content;
+    width: 70% ;
+    height: 450px ;
+    border-radius: 50px;
+    background-color: #fff;
+    
     h1 {
         font-size: 2rem;
-        padding: 2rem 0;
+        padding: 2rem 0 0 0;
         text-align: center;
+        margin: 0 !important;
     }
     .form-group {
         .form-check {
@@ -137,6 +141,11 @@ header.mobile .mobile-nav.mobile-link-active {
             }
         }
     }
+}
+.needs-validation{
+    width: 80% !important;
+    margin: auto;
+    
 }
 
 @media (min-width: 968px) and (max-width: 1134px) {
@@ -244,8 +253,8 @@ header.mobile .mobile-nav.mobile-link-active {
     }
     .contact-us {
         margin: 0 auto !important;
-        width: 60% !important;
-        height: max-content;
+        width: 70% !important;
+        height: 500px;
     }
 }
 
@@ -269,8 +278,11 @@ header.mobile .mobile-nav.mobile-link-active {
     }
     .contact-us {
         margin: 0 auto !important;
-        width: 75% !important;
-        height: max-content;
+        width: 75% ;
+        height: 500px;
+    }
+    .line{
+        width: 180px !important;
     }
 }
 
@@ -280,10 +292,7 @@ header.mobile .mobile-nav.mobile-link-active {
         nav {
             width: 100%;
             .logo {
-                // .logo-img img{
-                //     height: 80px;
-                //     width: 80px;
-                // }
+               
                 .logo-text {
                     h1 {
                         font-size: 1.05rem;
@@ -297,6 +306,13 @@ header.mobile .mobile-nav.mobile-link-active {
     }
     .toggle-btn h1 {
         margin-top: 15px;
+    }
+    .contact-us{
+        height: 500px;
+        width: 90% !important;
+    }
+    .line{
+        width: 150px !important;
     }
 }
 
@@ -344,5 +360,38 @@ header.mobile .mobile-nav.mobile-link-active {
         margin: 0 auto !important;
         width: 60% !important;
         height: max-content;
+        height: 500px;
+    }
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 10% !important;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #1f1f1f54;
+    box-shadow: 10px 0px 10px #1f1f1f, -10px 0px 10px #1f1f1f,;
+}
+
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: #1f1f1fa8;
+    border-radius: 20px;
+    
+    margin-bottom: 2rem !important;
+    margin: auto;
+}
+
+.footer{
+    background-color: aqua;
+    height: 30rem;
+    width: 100%;
+    margin: 0!important;
+    position: relative;
+    top: -5rem;
+    z-index: -99;
+    .row{
+        width: 100%;
+        
     }
 }
