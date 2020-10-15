@@ -1,0 +1,54 @@
+.container{
+    height:100%;
+    width:100%;
+    border:2px solid black;
+    max-width:auto;
+    max-height: 75% ;
+    display:flex;
+    
+}
+#imgdiwali{
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+   position: relative;
+   margin-left: 500px;
+   margin-top:100px;
+   animation: image 1.5s ease;
+   animation-delay: 1s;
+   height: 60%;
+   max-width:100%;
+   border: 5px solid black;
+ 
+}
+
+@keyframes image{
+from{
+    transform:rotateX(0deg);
+
+}
+to{
+    transform:rotateX(360deg);
+}
+
+}
+#imgbirthday{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    position: absolute;
+    margin-left: -420px;
+    margin-top:109px;
+    animation: imageb 1.5s ease;
+    animation-delay: 1s;
+    height: 60%;
+    max-width:100%;
+    border:5px solid black;
+    
+    
+}
+ @keyframes imageb{
+ from{
+     transform:rotateX(0deg);
+ }
+ to{
+     transform:rotateX(360deg);
+ }
+ 
+ }
