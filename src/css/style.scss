@@ -395,3 +395,17 @@ header.mobile .mobile-nav.mobile-link-active {
         
     }
 }
+
+
+
+.space{
+    margin: 50px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
