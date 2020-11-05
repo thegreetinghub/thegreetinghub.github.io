@@ -155,7 +155,7 @@ header.mobile .mobile-nav.mobile-link-active {
             .logo {
                 .logo-text {
                     h1 {
-                        font-size: 1.9rem;
+                        font-size: 1.5rem;
                     }
                 }
             }
@@ -258,6 +258,11 @@ header.mobile .mobile-nav.mobile-link-active {
     }
 }
 
+@media (min-width: 540px) and (max-width: 650px) {
+    .footer{
+        flex-direction: column !important;
+    }
+}
 @media (max-width: 540px) {
     .navbar-header {
         nav {
@@ -276,6 +281,12 @@ header.mobile .mobile-nav.mobile-link-active {
             }
         }
     }
+    .categories h1{
+        font-size: 1.5rem;
+    }
+    .categories .line{
+        width: 100px !important;
+    }
     .contact-us {
         margin: 0 auto !important;
         width: 75% ;
@@ -285,6 +296,7 @@ header.mobile .mobile-nav.mobile-link-active {
         width: 180px !important;
     }
     .footer{
+        flex-direction: column !important;
         .footer-links{
             height: 100px !important;
             max-height: 100px !important;
@@ -310,6 +322,12 @@ header.mobile .mobile-nav.mobile-link-active {
             }
         }
     }
+    .categories h1{
+        font-size: 1.3rem;
+    }
+    .categories .line{
+        width: 100px !important;
+    }
     .toggle-btn h1 {
         margin-top: 15px;
     }
@@ -317,26 +335,35 @@ header.mobile .mobile-nav.mobile-link-active {
         height: 500px;
         width: 90% !important;
     }
+    .contact-us h1{
+        font-size: 1.3rem;
+    }.contact-us .line{
+        width: 100px !important;
+    }
     .line{
         width: 150px !important;
+    }
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-links{
+        height: 100px;
     }
 }
 
 @media (min-width: 2100px) {
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
-        width: 80px !important;
-        height: 80px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
     .navbar-header {
-        height: 80px;
+        height: 90px;
         nav {
             width: 100%;
             .logo {
-                // .logo-img img{
-                //     height: 80px;
-                //     width: 80px;
-                // }
+               
                 .logo-text {
                     h1 {
                         font-size: 3.25rem;
@@ -397,8 +424,7 @@ header.mobile .mobile-nav.mobile-link-active {
     .column-footer{
         flex: 1;
         height: 300px;
-        min-width: 300px;
-        min-height: 300px;
+        
     }
     .footer-links{
         display: flex;
@@ -429,11 +455,15 @@ header.mobile .mobile-nav.mobile-link-active {
         }
     }
     .support{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         h3{
             text-align: center;
         }
         input{
-            margin: 20px;
+            
             width: 80%;
             height: 40px;
             border: 2px solid #1f1f1f;
