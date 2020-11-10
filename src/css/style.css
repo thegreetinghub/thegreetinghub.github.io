@@ -337,10 +337,10 @@ header.mobile .mobile-nav.mobile-link-active {
   .navbar-header nav .home {
     height: 50vh;
   }
-  .categories h1 {
+  #categories h1 {
     font-size: 1.5rem;
   }
-  .categories .line {
+  #categories .line {
     width: 100px !important;
   }
   .contact-us {
@@ -376,10 +376,10 @@ header.mobile .mobile-nav.mobile-link-active {
   .navbar-header nav .home {
     height: 50vh;
   }
-  .categories h1 {
+  #categories h1 {
     font-size: 1.3rem;
   }
-  .categories .line {
+  #categories .line {
     width: 100px !important;
   }
   .toggle-btn h1 {
@@ -604,7 +604,7 @@ header.mobile .mobile-nav.mobile-link-active {
   margin: 50px;
 }
 
-.categories {
+#categories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
