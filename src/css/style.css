@@ -167,7 +167,7 @@ header.mobile .mobile-nav.mobile-link-active {
   height: 100%;
 }
 
-.contact-us {
+#contact-us {
   margin: 0 auto !important;
   width: 70%;
   height: 450px;
@@ -175,14 +175,14 @@ header.mobile .mobile-nav.mobile-link-active {
   background-color: #fff;
 }
 
-.contact-us h1 {
+#contact-us h1 {
   font-size: 2rem;
   padding: 2rem 0 0 0;
   text-align: center;
   margin: 0 !important;
 }
 
-.contact-us .form-group .form-check label {
+#contact-us .form-group .form-check label {
   font-size: 14px !important;
 }
 
@@ -198,7 +198,7 @@ header.mobile .mobile-nav.mobile-link-active {
   .navbar-header nav .logo .logo-text h1 {
     font-size: 1.5rem;
   }
-  .contact-us {
+  #contact-us {
     margin: 0 auto !important;
     width: 50% !important;
     height: -webkit-max-content;
@@ -307,7 +307,7 @@ header.mobile .mobile-nav.mobile-link-active {
   .home {
     height: 50vh;
   }
-  .contact-us {
+  #contact-us {
     margin: 0 auto !important;
     width: 70% !important;
     height: 500px;
@@ -343,7 +343,7 @@ header.mobile .mobile-nav.mobile-link-active {
   #categories .line {
     width: 100px !important;
   }
-  .contact-us {
+  #contact-us {
     margin: 0 auto !important;
     width: 75%;
     height: 500px;
@@ -385,14 +385,14 @@ header.mobile .mobile-nav.mobile-link-active {
   .toggle-btn h1 {
     margin-top: 15px;
   }
-  .contact-us {
+  #contact-us {
     height: 500px;
     width: 90% !important;
   }
-  .contact-us h1 {
+  #contact-us h1 {
     font-size: 1.3rem;
   }
-  .contact-us .line {
+  #contact-us .line {
     width: 100px !important;
   }
   .line {
@@ -455,7 +455,7 @@ header.mobile .mobile-nav.mobile-link-active {
     font-size: 2.5rem;
     line-height: 60px;
   }
-  .contact-us {
+  #contact-us {
     margin: 0 auto !important;
     width: 60% !important;
     height: -webkit-max-content;
