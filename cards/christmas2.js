@@ -1,5 +1,7 @@
 function picture(){
     document.getElementById('newscreen').style.visibility="visible";
+  document.getElementById('lightrope').style.visibility="visible";
+  document.getElementById('lightrope').style.backgroundColor="#DE4242";
     
 }
 
