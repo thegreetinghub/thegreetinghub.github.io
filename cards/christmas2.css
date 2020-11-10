@@ -1,0 +1,118 @@
+*{
+    background-color: #e2a33e;
+}
+#SantaKeHath{
+    animation:hand 1s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    overflow: hidden;
+}
+@keyframes hand{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg) translateX(10px);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.text{
+    font-size: 90px;
+    text-align: right;
+    top:0;
+    right:0;
+    position: absolute;
+    font-family: "Mountains of Christmas";
+    color: #EA4630;
+}
+#p2{
+    font-size: 35px;
+    position:absolute;
+    right:0;
+    top:370px;
+     letter-spacing:2px;
+     font-family: cursive;
+     color: #EA4630;
+}
+#newscreen{
+     width: 100%;
+		  height: 100%;
+		  position: fixed;
+		  top: 0;
+          left: 0;
+          visibility:hidden;
+          
+      background-color: #DE4242;
+}
+.rel{
+position: relative;
+left:0;
+width:766px;
+ height:609px;
+}
+
+
+@media screen and (max-width:1134px) {
+    .text{
+        font-size: 80px;
+    }
+    .rel{
+         width: 500px;
+    }
+   
+  }
+  @media screen and (max-width: 890px) {
+    .text{
+        font-size: 70px;
+    }
+    .rel{
+         width: 300px;
+    }
+    #p2{
+        font-size: 32px;
+    }
+  }
+  @media screen and (max-width: 722px) {
+    .text{
+        font-size: 60px;
+        top:90px;
+    }
+    .rel{
+         width: 250px;
+    }
+    #p2{
+        font-size: 29px;
+    }
+   
+  }
+  @media screen and (max-width: 526px) {
+    .text{
+        font-size: 50px;
+        top:90px;
+    }
+    .rel{
+         width: 250px;
+    }
+    
+    #p2{
+        font-size: 26px;
+    }
+   
+  }
+  @media screen and (max-width: 444px) {
+    .text{
+        font-size: 40px;
+        top:90px
+    }
+    .rel{
+         width: 240px;
+    }
+    #p2{
+        font-size: 23px;
+        top:450px;
+    }
+   
+  }
+  
