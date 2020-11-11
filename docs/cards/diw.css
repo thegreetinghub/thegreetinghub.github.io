@@ -95,9 +95,9 @@ body{
   }
   @media screen and (max-width:327px){
     #slast{
-        top:530px;
+        top:550px;
     }
     svg{
-        top:440px;
+        top:470px;
     }
 }
