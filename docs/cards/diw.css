@@ -45,13 +45,14 @@ body{
         text-align: center;
         position: relative; 
         width: 100%;
-        font-family:'Great Vibes';
+        font-family:cursive;
          color:#fff;
          top: 350px;
     }
     #last{
+        font-size:20px;
          color:white;
-         font-family: cursive;
+         font-family: 'Open Sans', sans-serif;
          position: absolute;
          top:400px;
          width:100%;
