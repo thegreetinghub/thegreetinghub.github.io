@@ -33,7 +33,7 @@ section {
 }
 
 .all-page-content-margin-subtract {
-    margin-top: 0 !important;
+    margin-top: 0px !important;
 }
 
 .navbar-header {
@@ -56,6 +56,7 @@ section {
             .logo-text {
                 float: right;
                 h1 {
+                    font-weight: bold;
                     line-height: 100px;
                 }
             }
@@ -256,6 +257,29 @@ header.mobile .mobile-nav.mobile-link-active {
         width: 70% !important;
         height: 500px;
     }
+    .footer{
+        margin-top: -200px !important;
+    
+    }
+    .footer-links{
+        height: 250px !important;
+        width: 20% !important;
+        justify-content: space-between !important ;
+        align-items: center !important;
+        a{
+            padding: 10px;
+            border: 1px solid #1f1f1f;
+            border-radius: 50%;
+            line-height: 0;
+            font-size: 28px;
+            color: #666666;
+            transition: color 0.25s;
+        }
+        a:hover{
+            color: #1f1f1f;
+            transition: color 0.25s;
+        }
+    }
 }
 
 @media (min-width: 540px) and (max-width: 650px) {
@@ -281,16 +305,24 @@ header.mobile .mobile-nav.mobile-link-active {
             }
         }
     }
-    .categories h1{
-        font-size: 1.5rem;
+    #categories h1{
+        font-size: 1.1rem;
+        font-weight: bold;
     }
-    .categories .line{
+    #categories .line{
         width: 100px !important;
     }
-    .contact-us {
+    #contact-us {
         margin: 0 auto !important;
         width: 75% ;
         height: 500px;
+    }
+    #contact-us h1{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    #contact-us .line{
+        width: 100px !important;
     }
     .line{
         width: 180px !important;
@@ -322,24 +354,11 @@ header.mobile .mobile-nav.mobile-link-active {
             }
         }
     }
-    .categories h1{
-        font-size: 1.3rem;
-    }
-    .categories .line{
-        width: 100px !important;
-    }
+    
     .toggle-btn h1 {
         margin-top: 15px;
     }
-    .contact-us{
-        height: 500px;
-        width: 90% !important;
-    }
-    .contact-us h1{
-        font-size: 1.3rem;
-    }.contact-us .line{
-        width: 100px !important;
-    }
+    
     .line{
         width: 150px !important;
     }
@@ -348,7 +367,7 @@ header.mobile .mobile-nav.mobile-link-active {
         flex-wrap: wrap;
     }
     .footer-links{
-        height: 100px;
+        height: 50px;
     }
 }
 
@@ -417,11 +436,11 @@ header.mobile .mobile-nav.mobile-link-active {
 
 .footer{
     width: 100%;
+    margin-top: -200px;
     height: max-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    bac
     .column-footer{
         flex: 1;
         height: 300px;
@@ -430,9 +449,10 @@ header.mobile .mobile-nav.mobile-link-active {
     .footer-links{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-evenly !important;
         align-items: center;
-        a{
+        margin: auto;
+        a{ 
             padding: 10px;
             border: 1px solid #1f1f1f;
             border-radius: 50%;
@@ -483,7 +503,7 @@ header.mobile .mobile-nav.mobile-link-active {
     width: 100%;
     color: #ffffff;
     text-align: center;
-    background-color: #000000;
+    background: #000;
     p{
         margin: 0;
         padding: 0;
