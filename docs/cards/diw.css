@@ -12,16 +12,34 @@ body{
    text-align: center;
    width: 100%;
   }
-
+  .hdtext {
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFD700;
+  text-shadow: 9px 9px px #d4b60b;
+  font-family: cursive;
+  }
   
+  
+
   svg{
       top:400px;
       width:100%;
       align-items: center;
   }
  
-
-
+.lowertext{
+    position:absolute;
+    top:220px;
+    color:white;
+    font-size: 22px;
+    color: #fff;
+    text-shadow:6px 6px 12px rgb(238, 65, 224);
+    width:100%;
+    text-align: center;
+  }
     #slast{
         font-size: 30px;
         text-align: center;
@@ -44,35 +62,40 @@ body{
         #last{
             top:650px;
         }
+        #slast{
+            top:420px;
+        }
     }
     @media screen and (max-width:485px){
         #slast{
-            top:440px;
+            top:460px;
         }
         #last{
             top:670px;
         }
+        .lowertext{
+            top:290px;}
     }
     @media screen and (max-width:419px){
         #slast{
-            top:470px;
+            top:510px;
         }
         #last{
             top:680px;
         }
         svg{
-            top:410px;
+            top:420px;
         }
     }
   @media screen and (max-width:468px){
-      .glow2{
+      .lowertext{
           top: 300px;
       }
-
+        
   }
-  @media screen and (max-width:324px){
+  @media screen and (max-width:327px){
     #slast{
-        top:500px;
+        top:530px;
     }
     svg{
         top:440px;
