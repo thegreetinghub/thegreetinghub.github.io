@@ -171,7 +171,7 @@ header.mobile .mobile-nav.mobile-link-active {
 .contact-us {
   margin: 0 auto !important;
   width: 70%;
-  height: 200px;
+  height: 450px;
   border-radius: 50px;
   background-color: #fff;
 }
@@ -479,7 +479,7 @@ header.mobile .mobile-nav.mobile-link-active {
     height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
-    height: 200px;
+    height: 500px;
   }
 }
 
