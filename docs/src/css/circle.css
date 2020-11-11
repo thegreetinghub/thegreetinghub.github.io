@@ -7,17 +7,18 @@
     flex-direction: row;
     display: flex;
     padding: 30px 0;
-    justify-content: space-evenly;
+    justify-content: center !important;
     align-items: center;
+    margin: auto;
     
 }
 .containercircle{
-    height: 300px;
+    height: max-content;
     width:100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    flex-direction: row;
+    
+    margin: 50px;
 
     
 }
