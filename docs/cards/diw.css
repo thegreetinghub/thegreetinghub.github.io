@@ -35,11 +35,23 @@ body{
     top:220px;
     color:white;
     font-size: 22px;
-    color: #fff;
-    text-shadow:6px 6px 12px rgb(238, 65, 224);
+    color:#fff;
     width:100%;
     text-align: center;
+    animation:lowertext 3s ease infinite;
   }
+@keyframes lowertext{
+from{
+    
+  text-shadow: 3px 3px 5px #ff99cc,
+    -2px 1px 5px #ff99cc;
+    }
+    to{
+        
+  text-shadow: 3px 3px 5px #ff99cc,
+    -2px 1px 5px #ff99cc;
+    }
+}
     #slast{
         font-size: 30px;
         text-align: center;
