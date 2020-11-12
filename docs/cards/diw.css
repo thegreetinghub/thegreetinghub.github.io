@@ -38,20 +38,10 @@ body{
     color:#fff;
     width:100%;
     text-align: center;
-    animation:lowertext 3s ease infinite;
+  text-shadow: 3px 3px 5px #ff99cc,
+    -2px 1px 5px #ff99cc
   }
-@keyframes lowertext{
-from{
-    
-  text-shadow: 3px 3px 5px #ff99cc,
-    -2px 1px 5px #ff99cc;
-    }
-    to{
-        
-  text-shadow: 3px 3px 5px #ff99cc,
-    -2px 1px 5px #ff99cc;
-    }
-}
+
     #slast{
         font-size: 30px;
         text-align: center;
