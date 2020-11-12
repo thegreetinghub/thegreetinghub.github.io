@@ -1,0 +1,18 @@
+.column-images
+{
+  background:white;
+  
+}
+
+.column-images .row
+{
+  text-align:center;
+}
+.column-images img
+{
+  margin-bottom:10px;
+  margin-top:20px;
+  height: 500px;
+  width: 100%;
+}
+
