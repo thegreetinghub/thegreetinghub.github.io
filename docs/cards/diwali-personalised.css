@@ -123,6 +123,7 @@ body{
     @media screen and (max-width:419px){
         #ganeshimg{
             top:510px;
+            left: 8%;
         }
         #slast{
             top:680px;
@@ -138,7 +139,7 @@ body{
       #ganeshimg{
         top:620px;
         width: 300px;
-        left: 10%;
+        left: 7%;
     }
     #slast{
         top: 950px;
