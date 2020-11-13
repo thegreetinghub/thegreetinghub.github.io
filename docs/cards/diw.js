@@ -1,5 +1,10 @@
 "use strict";
-
+function username() {
+	let name = prompt('Enter your name:');
+	if (name!=null) {
+		document.getElementById('slast').innerHTML='~From'+name;
+	}
+}
 let canvas, width, height, ctx;
 let fireworks = [];
 let particles = [];
