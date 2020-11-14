@@ -62,14 +62,14 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-shadow: 3px 3px 5px #d0ff00,
-    -2px 1px 5px #ff99cc
+    -2px -1px 5px #ff99cc
   }
   #mantra{
       top: 560px;
       position: absolute;
       color: white;
       font-size: 25px;
-      text-shadow: 3px 3px 5px #d0ff00, -2px 1px 5px #97cd5f;
+      text-shadow: 3px 3px 5px #d0ff00, -2px -1px 5px #97cd5f;
   }
     #slast{
         font-size: 35px;
