@@ -79,7 +79,7 @@ body{
         left: -10px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          color:rgb(255, 255, 255);
-         text-shadow:3px 3px 5px #4edfe9;
+         text-shadow:3px 3px 5px #4edfe9, -2px -1px 5px #97cd5f;
          top: 650px;
          padding: 5px;
     }
