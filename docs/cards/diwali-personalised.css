@@ -42,15 +42,12 @@ body{
   text-shadow: 9px 9px 10px #d4b60b;
   font-family: cursive;
   margin-top: 20px;
+      font-weight: bold;
   }
   
   
 
-  svg{
-      top:400px;
-      width:100%;
-      align-items: center;
-  }
+
  
 .lowertext{
     position:absolute;
@@ -62,7 +59,9 @@ body{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-shadow: 3px 3px 5px #d0ff00,
-    -2px -1px 5px #ff99cc
+    -2px -1px 5px #ff99cc;
+          font-weight: bold;
+
   }
   #mantra{
       top: 560px;
@@ -70,6 +69,8 @@ body{
       color: white;
       font-size: 25px;
       text-shadow: 3px 3px 5px #d0ff00, -2px -1px 5px #97cd5f;
+            font-weight: bold;
+
   }
     #slast{
         font-size: 35px;
@@ -82,6 +83,8 @@ body{
          text-shadow:3px 3px 5px #4edfe9, -2px -1px 5px #97cd5f;
          top: 650px;
          padding: 5px;
+              font-weight: bold;
+
     }
     #ganeshimg{
          position: absolute;
