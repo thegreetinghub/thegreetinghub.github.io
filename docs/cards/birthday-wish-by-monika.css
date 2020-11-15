@@ -17,10 +17,10 @@
   width: 100vw;
   padding: 0;
   margin: 0;
-  -webkit-perspective: 800px;
-          perspective: 800px;
-  -webkit-perspective-origin: 50% 200px;
-          perspective-origin: 50% 200px;
+  -webkit-perspective: 800px !important;
+          perspective: 800px !important;
+  -webkit-perspective-origin: 50% 200px 1;
+          perspective-origin: 50% 200px 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@
 }
 
 .wrap-present {
-  width: 100%;
+  width: 100% !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,8 +51,8 @@
 .present-box {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  width: 200px;
-  height: 200px;
+  width: 200px !important;
+  height: 200px !important;
   margin: auto;
   -webkit-animation: rotate 11s alternate linear infinite;
           animation: rotate 11s alternate linear infinite;
@@ -294,7 +294,6 @@
 
 body {
   background-color: #faffb5;
-  height: 100vw;
 }
 
 main {
@@ -500,7 +499,7 @@ marquee {
 
 .whatsapp-button {
   position: fixed;
-  bottom: 15px;
+  bottom: 25px;
   right: 25px;
   z-index: 99;
   background-color: #25d366;
@@ -562,6 +561,14 @@ marquee {
     width: 100px;
     height: 100px;
     font-size: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .whatsapp-button {
+    bottom: 35px;
+    width: 250px;
+    height: 250px;
   }
 }
 /*# sourceMappingURL=birthday-wish-by-monika.css.map */
