@@ -32,7 +32,7 @@
 .above-fold .info-text {
   width: 100%;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 200px;
   color: #555;
   font-family: 'Great Vibes', cursive;
   font-weight: bold;
@@ -344,7 +344,7 @@ main {
   width: -moz-max-content;
   width: max-content;
   margin: auto;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: var(--font1);
   color: seagreen;
 }
