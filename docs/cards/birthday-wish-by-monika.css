@@ -19,8 +19,8 @@
   margin: 0;
   -webkit-perspective: 800px !important;
           perspective: 800px !important;
-  -webkit-perspective-origin: 50% 200px 1;
-          perspective-origin: 50% 200px 1;
+  -webkit-perspective-origin: 50% 200px !important;
+          perspective-origin: 50% 200px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

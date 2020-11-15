@@ -16,7 +16,7 @@
     padding: 0;
     margin:0;
     perspective:800px !important;
-      perspective-origin: 50% 200px 1;
+      perspective-origin: 50% 200px !important;
     display: flex;
     flex-wrap: wrap;
     position: relative;
