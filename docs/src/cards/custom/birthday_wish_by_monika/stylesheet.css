@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'kg_a_little_swagregular';
+    src: url('kgalittleswag-webfont.woff2') format('woff2'),
+         url('kgalittleswag-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'celebrater_personal_useRg';
+    src: url('celebrater_personal_use_demo-webfont.woff2') format('woff2'),
+         url('celebrater_personal_use_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
