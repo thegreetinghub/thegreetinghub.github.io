@@ -1,5 +1,10 @@
 $gray: #6c757d;
-
+.navbar-brand{
+    font-size: 1.5rem !important;
+}
+.nav-link{
+    font-size: 1.25rem;
+}
 .heading-line::after{
     content: "";
     display: block;
