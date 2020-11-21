@@ -557,58 +557,203 @@
   .categories-container {
     height: 300px;
   }
-  .circle-container .hover-item.circle {
+  .hover-item.circle {
+    position: relative;
     width: 210px;
     height: 210px;
+    border-radius: 50%;
   }
-  .circle-container .hover-item.circle .img {
+  .hover-item.circle .img {
+    position: relative;
     width: 210px;
     height: 210px;
+    border-radius: 50%;
   }
-  .circle-container .hover-item.circle.effect .spinner {
+  .hover-item.circle .img img {
+    border-radius: 50%;
+  }
+  .hover-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }
+  .hover-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .hover-item.circle.effect .spinner {
     width: 220px;
     height: 220px;
     border: 10px solid #ecab18;
     border-right-color: #1ad280;
     border-bottom-color: #1ad280;
+    border-radius: 50%;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
-  .circle-container .hover-item.circle.effect .img {
+  .hover-item.circle.effect .img {
+    position: absolute;
     top: 10px;
+    bottom: 0;
     left: 10px;
+    right: 0;
+    width: auto;
+    height: auto;
   }
-  .circle-container .hover-item.circle.effect .info {
+  .hover-item.circle.effect .img::before {
+    display: none;
+  }
+  .hover-item.circle.effect .info {
     top: 10px;
+    bottom: 0;
     left: 10px;
+    right: 0;
+    background: #333333;
+    background: #FFB5B4;
+    opacity: 0;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .hover-item.circle.effect .info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  .hover-item.circle.effect a:hover .spinner {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .hover-item.circle.effect a:hover .info {
+    opacity: 1;
   }
 }
 
 @media (max-width: 540px) {
-  .circle-container .hover-item.circle {
+  .hover-item.circle {
+    position: relative;
     width: 140px;
     height: 140px;
+    border-radius: 50%;
   }
-  .circle-container .hover-item.circle .img {
+  .hover-item.circle .img {
+    position: relative;
     width: 140px;
     height: 140px;
+    border-radius: 50%;
   }
-  .circle-container .hover-item.circle.effect .spinner {
+  .hover-item.circle .img img {
+    border-radius: 50%;
+  }
+  .hover-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+  }
+  .hover-item.circle .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .hover-item.circle.effect .spinner {
     width: 150px;
     height: 150px;
     border: 10px solid #ecab18;
     border-right-color: #1ad280;
     border-bottom-color: #1ad280;
+    border-radius: 50%;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
-  .circle-container .hover-item.circle.effect .img {
+  .hover-item.circle.effect .img {
+    position: absolute;
     top: 10px;
+    bottom: 0;
     left: 10px;
+    right: 0;
+    width: auto;
+    height: auto;
   }
-  .circle-container .hover-item.circle.effect .info {
+  .hover-item.circle.effect .img::before {
+    display: none;
+  }
+  .hover-item.circle.effect .info {
     top: 10px;
+    bottom: 0;
     left: 10px;
+    right: 0;
+    background: #333333;
+    background: #FFB5B4;
+    opacity: 0;
+    -webkit-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .hover-item.circle.effect .info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  .hover-item.circle.effect a:hover .spinner {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .hover-item.circle.effect a:hover .info {
+    opacity: 1;
+  }
+  .categories-heading {
+    font-size: 26px;
+  }
+  .contact-heading {
+    font-size: 26px;
+  }
+  .fgh {
+    width: 60px !important;
+    height: 60px !important;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 324px) {
+  .hjk {
+    font-size: 20px !important;
+  }
   .categories-container {
     height: 200px;
   }
