@@ -14,19 +14,27 @@ $gray: #6c757d;
     margin: 10px auto;
     border-radius: 10px;
 }
+.carousel-control-prev,.carousel-control-next{
+    width: 8% !important;
+}
 .carousel-control-prev:hover, .carousel-control-next:hover {
     background-color: #1f1f1f54;
     box-shadow: 10px 0px 10px #1f1f1f, -10px 0px 10px #1f1f1f;
+  }
+  .img-slide{
+          height: 40vw !important;
+          width: 100% !important;
+      
   }
 .categories-container{
     position: relative;
     height:400px !important;
 }
-.categories-container:hover .clip.imgdiwali:hover{
+.categories-container:hover .clip.img-cat-1:hover{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     z-index: 99;
 }
-.categories-container:hover .clip.imgbirthday:hover{
+.categories-container:hover .clip.img-cat-2:hover{
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
 }
 .clip{
@@ -37,13 +45,13 @@ $gray: #6c757d;
     width: 100%;
     transition: all 0.5s;
 }
-.clip.imgdiwali{
+.clip.img-cat-1{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%);
     background: url('../images/diwalishape.png');
     background-repeat: no-repeat;
     background-size: 1063px 400px;
 }
-.clip.imgbirthday{
+.clip.img-cat-2{
     clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%);
     background: url(../images/birthdayshape.png);
     background-repeat: no-repeat;
