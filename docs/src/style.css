@@ -858,25 +858,12 @@ svg {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#offer .link-1 .img-1,
-#offer .link-1 .img-2,
-#offer .link-2 .img-1,
-#offer .link-2 .img-2,
-#offer .link-3 .img-1,
-#offer .link-3 .img-2 {
-  border: 3px solid;
-  -webkit-box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
-          box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  margin: 30px auto;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+#offer button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
-#offer .link-1 button,
-#offer .link-2 button,
-#offer .link-3 button {
+#offer button {
   width: 130px;
   height: 70px;
   border: 3px solid;
@@ -890,20 +877,56 @@ svg {
   margin: 30px auto;
 }
 
-#offer .link-1 .img-1:hover,
-#offer .link-1 .img-2:hover,
-#offer .link-2 .img-1:hover,
-#offer .link-2 .img-2:hover,
-#offer .link-3 .img-1:hover,
-#offer .link-3 .img-2:hover {
+#offer .img_container {
+  position: relative;
+}
+
+#offer .img_container .img {
+  border: 3px solid;
+  -webkit-box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
+          box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 30px auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#offer .img_container .img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-#offer .link-1 button:hover,
-#offer .link-2 button:hover,
-#offer .link-3 button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+#offer .img_container .img:hover ~ .download_link {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+}
+
+#offer .img_container .download_link {
+  border: 3px solid;
+  -webkit-box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
+          box-shadow: 3px 3px 5px red, -3px -3px 5px #e5ff00;
+  background-color: transparent;
+  font-family: Georgia,'Times New Roman',Times,serif;
+  font-size: 1.2rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 30px auto;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: auto !important;
+  width: auto !important;
+  padding: 5px 8px;
+  z-index: 99;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  background-color: black;
+  color: #fff;
+}
+
+#offer .img_container .download_link:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
 }
 /*# sourceMappingURL=style.css.map */
